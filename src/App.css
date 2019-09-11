@@ -1,33 +1,46 @@
-.App {
-  text-align: center;
+.root {
+  width: 100%;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 100%;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-size: 2rem;
+  border-bottom: 2px solid #888;
+  height: 100px;
 }
-
-.App-link {
-  color: #61dafb;
+.rooms {
+  display: flex;
+  flex-direction: row;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rooms-list {
+  padding: 2rem;
+  width: 50%;
+}
+.rooms-list-item {
+  padding: 10px;
+  cursor: pointer;
+  margin: 1rem auto;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  width: 10rem;
+  border: 1px solid #888;
+}
+.current-room {
+  margin: 2rem;
+  display: block;
+  padding: 2rem;
+  width: 50%;
+  border: 1px solid #888;
+  border-radius: 10px;
+}
+.current-room-header {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  border-bottom: 1px solid #333;
 }

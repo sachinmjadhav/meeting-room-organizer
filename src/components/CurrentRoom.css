@@ -1,0 +1,57 @@
+.availability {
+  font-size: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+.booking-times {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.booked-by {
+  padding: 1rem;
+}
+.book-now {
+  text-align: center;
+}
+.name-container {
+  display: flex;
+  flex-direction: row;
+}
+.name-tag {
+  font-size: 1.3rem;
+}
+.name-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 2px solid #888;
+  border-radius: 4px;
+}
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  align-items: center;
+}
+.button {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+  padding: 14px 25px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.availability {
+  color: red;
+}
